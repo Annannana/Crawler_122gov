@@ -15,7 +15,8 @@ NEWSPIDER_MODULE = 'Gov.spiders'
 # SCHEDULER_PERSIST = True  # 下载完后 是否清空爬取队列和去重指纹 False=清空
 
 # LOG_FILE = 'store.log'
-# LOG_LEVEL = "INFO"
+LOG_LEVEL = "INFO"
+
 REDIRECT_ENABLED = False
 # 429是蚂蚁代理并发数过多失效的状态码 301，302在禁止定向后，重新抓取
 RETRY_HTTP_CODES = [500, 502, 503, 504, 400, 403, 404, 405, 408, 429, 301, 302]
